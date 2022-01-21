@@ -17,7 +17,7 @@ html_boost.addEventListener("click", function() {
     nbKayak = nbKayak - boostPrice;
     html_kayak_counter.textContent = nbKayak;
     kayakPerClick++;
-    boostPrice = boostPrice * 10;
+    boostPrice = boostPrice * 5;
     html_boost_price.textContent = boostPrice;
   } else {
     alert("Pas assez de kayak ! Déso");
