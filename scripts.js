@@ -15,8 +15,8 @@ html_kayak.addEventListener("click", function() {
 html_boost.addEventListener("click", function() {
   if (nbKayak >= boostPrice) {
     nbKayak = nbKayak - boostPrice;
-    html_Kayak_counter.textContent = nbKayak;
-    KayakPerClick++;
+    html_kayak_counter.textContent = nbKayak;
+    kayakPerClick++;
     boostPrice = boostPrice * 10;
     html_boost_price.textContent = boostPrice;
   } else {
