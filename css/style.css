@@ -1,0 +1,28 @@
+#background {
+    background-image: url(https://cdn.discordapp.com/attachments/778239407152168974/934017323554205726/eau-background.png);
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#gamezone img {
+    width: 400px;
+    transition: .5s;
+}
+  
+#gamezone img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+  
+#kayak {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    font-size: 3rem;
+}
+
+button {
+    cursor: pointer;
+}
